@@ -1,0 +1,143 @@
+/* colours used -
+Green - #3cb371
+Black - #00000
+Dark Grey - #2f4f4f
+Light Grey - #778899
+
+Pale White - #f0ffff
+*/
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #f3ffff;
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #2f4f4f;
+  }
+
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+  h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 1.6em;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  h4 {
+    font-size: 1.4em;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  a {
+    color: #3cb371;
+    text-decoration: none;
+  }
+  a:visited {
+  color: #236A8D;
+}
+a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+a:active {
+  color: #3cb371;
+}
+
+/* BrewMate Button */
+.button1 {
+  display: inline-block;
+  background-color: #183642;
+  color: #F6C951;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 1px solid #08181E;
+  transition: 0.3s opacity;
+}
+.button1:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #F0993D;
+}
+.button1.active {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #F0993D;
+}
+
+/* Gro Button */
+.button2 {
+  display: inline-block;
+  background-color: #40A048;
+  color: #AFF0AE;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 1px solid #1E7925;
+  transition: 0.3s opacity;
+}
+.button2:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+.button2.active {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+/* Contact Button */
+.button.contact {
+  background-color: transparent;
+  color: #2f4f4f;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #3cb371;
+}
+.button.contact:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  background-color: #3cb371;
+  color: #ffffff;
+}
+
+/* CV Button */
+.button.cv {
+  display: inline-block;
+  background-color: transparent
+  color: #AFF0AE;
+  font-weight: 400;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid #3cb371;
+  transition: 0.3s opacity;
+}
+.button.cv:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  background-color: #3cb371;
+  color: #000000;
+}
+.button.cv.active {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+#main {
+  background-color: #fffafa
+}
