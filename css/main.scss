@@ -48,7 +48,7 @@ header {
 }
 
 .content {
-    background-color: #F5FFFD;
+    background-color: #ffffff;
     color: black;
     display: grid;
     text-align: center;
@@ -114,10 +114,15 @@ section {
     background: #06D6A0;
 }
 
+
 .skills-container ul li {
 
-    background: white;
+    background: rgba($color: white, $alpha: 0.9);
+    border: solid 3px transparent;
+    background-clip: padding-box;
     padding: 2em;
+    backdrop-filter: blur(40px);
+    box-shadow: 10px 10px 10px rgba(1, 192, 113, 0.03);
     margin-bottom: 1em;
     border-radius: 1em;
 
@@ -151,7 +156,7 @@ section {
 }
 
 .portfolio {
-    background-color: rgb(255, 240, 240);
+    background-color: rgb(255, 255, 255);
 }
 
 .portfolio-container a img {

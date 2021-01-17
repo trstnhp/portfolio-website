@@ -59,7 +59,7 @@ header ul a {
 }
 
 .content {
-  background-color: #F5FFFD;
+  background-color: #ffffff;
   color: black;
   display: -ms-grid;
   display: grid;
@@ -129,8 +129,14 @@ section {
 }
 
 .skills-container ul li {
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
+  border: solid 3px transparent;
+  background-clip: padding-box;
   padding: 2em;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  -webkit-box-shadow: 10px 10px 10px rgba(1, 192, 113, 0.03);
+          box-shadow: 10px 10px 10px rgba(1, 192, 113, 0.03);
   margin-bottom: 1em;
   border-radius: 1em;
 }
@@ -166,7 +172,7 @@ section {
 }
 
 .portfolio {
-  background-color: #fff0f0;
+  background-color: white;
 }
 
 .portfolio-container a img {
