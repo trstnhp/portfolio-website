@@ -68,13 +68,8 @@ header {
 /* main */
 
 .content {
-<<<<<<< Updated upstream
-    background-color: #ffffff;
-    color: black;
-=======
     background-color: var(--sec-drk);
     color: white;
->>>>>>> Stashed changes
     display: grid;
     text-align: center;
     padding: 2em;
@@ -202,18 +197,6 @@ section {
 
 .portfolio-left {
 
-<<<<<<< Updated upstream
-
-.skills-container ul li {
-
-    background: rgba($color: white, $alpha: 0.9);
-    border: solid 3px transparent;
-    background-clip: padding-box;
-    padding: 2em;
-    backdrop-filter: blur(40px);
-    box-shadow: 10px 10px 10px rgba(1, 192, 113, 0.03);
-    margin-bottom: 1em;
-=======
     .featured-title,
     .featured-desc {
         color: black;
@@ -221,7 +204,6 @@ section {
 }
 
 .portfolio-container img {
->>>>>>> Stashed changes
     border-radius: 1em;
     margin-bottom: 2em;
     box-shadow: 10px 10px 10px 3px rgba(37, 77, 102, 0.12);
@@ -490,13 +472,13 @@ section {
 
     .hero-skills {
         background: var(--sec-lt);
-    
+
         ul {
             padding: 2em 0 2em 0;
         }
-    
+
     }
-    
+
     .hero-skills-container {
 
         display: flex;
@@ -506,9 +488,9 @@ section {
         ul {
             display: grid;
             grid-template-columns: repeat(3, 33%);
-            grid-gap: 1em;
- 
+
             li {
+                margin: 0 1em;
                 box-shadow: 10px 10px 10px rgba(0, 20, 32, 0.301);
             }
         }
@@ -647,8 +629,6 @@ section {
     }
 
 }
-<<<<<<< Updated upstream
-=======
 
 @media only screen and (min-width: 1150px) {
 
@@ -703,7 +683,7 @@ section {
         padding: unset;
         margin: unset;
         height: 530px;
-   
+
 
 
         .content {
@@ -747,7 +727,7 @@ section {
             display: grid;
             grid-template-columns: repeat(3, 30%);
             grid-gap: 1em;
-            margin: 4em 0em 4em -24em; 
+            margin: 4em 0em 4em -24em;
             width: 300%;
             height: 100px;
 
@@ -798,7 +778,7 @@ section {
         grid-template-columns: 66% auto;
         background-color: var(--sec-lt);
         padding: unset;
-        
+
         .main-left {
 
             background-color: white;
@@ -857,7 +837,7 @@ section {
                 background: var(--sec-lt);
                 margin: 0em;
                 padding-top: 2em;
-                
+
                 span {
                     display: inline-block;
                     line-height: normal;
@@ -866,7 +846,7 @@ section {
                     margin: 1em 0;
                 }
 
-                .first-line{
+                .first-line {
 
                     margin: unset;
                     color: var(--sec-drk);
@@ -909,4 +889,3 @@ section {
         }
     }
 }
->>>>>>> Stashed changes

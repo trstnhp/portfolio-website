@@ -70,13 +70,8 @@ header ul a {
 
 /* main */
 .content {
-<<<<<<< Updated upstream
-  background-color: #ffffff;
-  color: black;
-=======
   background-color: var(--sec-drk);
   color: white;
->>>>>>> Stashed changes
   display: -ms-grid;
   display: grid;
   text-align: center;
@@ -210,20 +205,7 @@ section {
   color: black;
 }
 
-<<<<<<< Updated upstream
-.skills-container ul li {
-  background: rgba(255, 255, 255, 0.9);
-  border: solid 3px transparent;
-  background-clip: padding-box;
-  padding: 2em;
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
-  -webkit-box-shadow: 10px 10px 10px rgba(1, 192, 113, 0.03);
-          box-shadow: 10px 10px 10px rgba(1, 192, 113, 0.03);
-  margin-bottom: 1em;
-=======
 .portfolio-container img {
->>>>>>> Stashed changes
   border-radius: 1em;
   margin-bottom: 2em;
   -webkit-box-shadow: 10px 10px 10px 3px rgba(37, 77, 102, 0.12);
@@ -291,15 +273,10 @@ section {
   font-size: 1em;
 }
 
-<<<<<<< Updated upstream
-.portfolio {
-  background-color: white;
-=======
 .footer-content .button-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
->>>>>>> Stashed changes
 }
 
 .copyright {
@@ -473,9 +450,9 @@ section {
     display: grid;
     -ms-grid-columns: (33%)[3];
         grid-template-columns: repeat(3, 33%);
-    grid-gap: 1em;
   }
   .hero-skills-container ul li {
+    margin: 0 1em;
     -webkit-box-shadow: 10px 10px 10px rgba(0, 20, 32, 0.301);
             box-shadow: 10px 10px 10px rgba(0, 20, 32, 0.301);
   }
